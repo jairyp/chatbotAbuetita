@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "description": "chat bot abuetita",
   "main": "index.js",
-  "author": "roberto",
-  "license": "MIT",
   "scripts": {
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jairyp/chatbotAbuetita.git"
+  },
+  "author": "roberto",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "core-util-is": "^1.0.2",
     "express": "^4.17.1",
+    "mongoose": "^5.7.7",
     "request": "^2.88.0"
+  },
+  "engines": {
+    "node": "~12.13.0"
   }
 }
