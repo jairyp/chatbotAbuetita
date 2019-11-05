@@ -24,10 +24,7 @@ const
   mongoose = require('mongoose'),
   app = express().use(body_parser.json()); // creates express http server
 
- var db = mongoose.connect('mongodb://localhost/my_database', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-});
+var db = mongoose.connect(MONGODB_URI);
 
  var ChatStatus = require("./models/chatstatus");
 
